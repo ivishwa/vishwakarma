@@ -7,7 +7,14 @@ module.exports = {
   ],
   module: {
     loaders: [
-      { test: /\.js?$/, loader: 'babel', exclude: /node_modules/ },
+      {
+        test: /\.js?$/,
+        loader: 'babel',
+        exclude: /node_modules/,
+        query: {
+        presets: ['react','es2015']
+        }
+      },
       { test: /\.s?css$/, loader: 'style!css!sass' },
     ]
   },
@@ -16,7 +23,7 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, '/dist'),
-    publicPath: '/',
+    publicPath: '/' ,
     filename: 'bundle.js'
   },
   devServer: {
