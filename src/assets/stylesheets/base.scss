@@ -1,4 +1,22 @@
-h1 {
-  font-family: helvetica;
+.header  {
+  font-family: 'Dancing Script', Georgia, Times, serif;
   font-weight: 200;
+  margin:2px;
+  color: #006064;
+}
+
+.container {
+  flex:1;
+  margin: 20  px;
+}
+
+.main {
+  background: url(/images/bg.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 1024px;
+  min-width: 1024px;
+
 }

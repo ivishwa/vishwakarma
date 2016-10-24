@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
+import '../../assets/stylesheets/base.scss';
+
 class Container extends Component {
 render(){
     return (
-        <div>Container</div>
+        <div className="main">
+        </div>
     );
 }
 }
