@@ -5,7 +5,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {cyan500} from 'material-ui/styles/colors';
 import Header from './Header';
 import Container from './Container';
-import Footer from './Footer';
 const muiTheme = getMuiTheme({
   palette: {
     textColor: '#1A237E',
