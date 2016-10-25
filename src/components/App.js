@@ -18,7 +18,6 @@ const App = React.createClass({
         <div className="container">
         <Header/>
         <Container/>
-        <Footer/>
         </div>
       </MuiThemeProvider>
     )
