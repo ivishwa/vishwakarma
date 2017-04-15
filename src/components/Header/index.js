@@ -12,7 +12,7 @@ render(){
 
         <h1 style={{margin:2}}>
           <IconButton><NavigationMenu/></IconButton>
-          Indresh Vishwakarma
+          Indresh Ashok Vishwakarma
         </h1>
         <Divider
           style={{
