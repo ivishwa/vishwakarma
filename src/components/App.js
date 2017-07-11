@@ -13,12 +13,7 @@ const muiTheme = getMuiTheme({
 const App = React.createClass({
   render() {
     return(
-      <MuiThemeProvider muiTheme={muiTheme}>
-        <div className="container">
-        <Header/>
         <Container/>
-        </div>
-      </MuiThemeProvider>
     )
   }
 });
