@@ -1,33 +1,31 @@
-var webpack = require('webpack');
-var path = require('path');
+var webpack = require("webpack");
+var path = require("path");
 
 module.exports = {
-  entry: [
-    './src/index'
-  ],
+  entry: ["./src/index"],
   module: {
     loaders: [
       {
         test: /\.js?$/,
-        loader: 'babel',
+        loader: "babel",
         exclude: /node_modules/,
         query: {
-        presets: ['react','es2015']
+          presets: ["react", "es2015"]
         }
       },
-      { test: /\.s?css$/, loader: 'style!css!sass' },
+      { test: /\.s?css$/, loader: "style!css" }
     ]
   },
   resolve: {
-    extensions: ['', '.js']
+    extensions: ["", ".js"]
   },
   output: {
-    path: path.join(__dirname, '/dist'),
-    publicPath: '/' ,
-    filename: 'bundle.js'
+    path: path.join(__dirname, "/dist"),
+    publicPath: "/",
+    filename: "bundle.js"
   },
   devServer: {
-    contentBase: './dist',
+    contentBase: "./dist",
     hot: true
   },
   plugins: [
