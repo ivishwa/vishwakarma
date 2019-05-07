@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../assets/stylesheets/base.scss";
+import "../../assets/stylesheets/base.css";
 
 class Container extends Component {
   render() {
