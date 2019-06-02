@@ -3,7 +3,7 @@ import "../../assets/stylesheets/base.css";
 
 class Container extends Component {
   render() {
-    const heading = '"Hello! I am Indresh Vishwakarma"';
+    const heading = '"hello! I am Indresh Vishwakarma"';
     const subheding =
       '"The best thing about a boolean is even if you are wrong, you are only off by a bit"';
     const links = [
