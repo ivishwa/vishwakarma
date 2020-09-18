@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../assets/stylesheets/base.css";
+import Footer from "../Footer";
 
 class Container extends Component {
   render() {
@@ -9,18 +10,18 @@ class Container extends Component {
     const links = [
       {
         icon: "fa-linkedin",
-        href: "https://www.linkedin.com/in/indreshvishwakarma/"
+        href: "https://www.linkedin.com/in/indreshvishwakarma/",
       },
       {
         icon: "fa-facebook",
-        href: "https://www.facebook.com/theindreshvishwakarma"
+        href: "https://www.facebook.com/theindreshvishwakarma",
       },
       { icon: "fa-github", href: "https://github.com/indreshvishwakarma" },
       { icon: "fa-twitter", href: "https://twitter.com/the_indresh" },
       {
         icon: "fa-instagram",
-        href: "https://www.instagram.com/iamindreshvishwakarma"
-      }
+        href: "https://www.instagram.com/iamindreshvishwakarma",
+      },
     ];
     return (
       <div className="main">
@@ -44,6 +45,7 @@ class Container extends Component {
             ))}
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
